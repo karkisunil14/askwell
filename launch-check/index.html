@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hollow Pine Coffee</title>
+  <style>
+    :root { --green: #2f4a3a; --cream: #f4eee2; --ink: #1f2420; --muted: #5c6660; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: var(--ink); background: var(--cream); }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; }
+    .logo { font-size: 22px; font-weight: bold; color: var(--green); }
+    nav a { margin-left: 28px; color: var(--ink); text-decoration: none; font-family: system-ui, sans-serif; font-size: 15px; }
+    .hero { padding: 80px 40px 70px; max-width: 900px; }
+    .hero h1 { font-size: 56px; line-height: 1.05; margin: 0 0 18px; color: var(--green); }
+    .hero p { font-size: 20px; color: var(--muted); max-width: 560px; margin: 0 0 30px; }
+    .btn { display: inline-block; background: var(--green); color: #fff; padding: 14px 26px; border-radius: 6px; text-decoration: none; font-family: system-ui, sans-serif; }
+    .coffees { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; padding: 0 40px 90px; }
+    .card { background: #fff; border-radius: 10px; padding: 28px; }
+    .card h3 { margin: 0 0 6px; font-size: 22px; color: var(--green); }
+    .card .roast { font-family: system-ui, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    .card p { margin: 14px 0 18px; }
+    .card .price { font-family: system-ui, sans-serif; font-weight: 600; }
+    footer { padding: 30px 40px; font-family: system-ui, sans-serif; font-size: 14px; color: var(--muted); border-top: 1px solid #ddd3c2; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Hollow Pine Coffee</div>
+    <nav><a href="#">Coffee</a><a href="#">Subscriptions</a><a href="#">Grinder</a></nav>
+  </header>
+
+  <section class="hero">
+    <h1>Small-batch coffee,<br />roasted every Tuesday.</h1>
+    <p>Three coffees from our shop in Pine Hollow, Oregon, shipped fresh across the United States.</p>
+    <a class="btn" href="#">Shop coffee</a>
+  </section>
+
+  <section class="coffees">
+    <div class="card"><div class="roast">Medium</div><h3>Morning Fog</h3><p>Caramel, almond, red apple.</p><div class="price">$18</div></div>
+    <div class="card"><div class="roast">Dark</div><h3>Night Owl</h3><p>Cocoa, molasses, a little smoke.</p><div class="price">$19</div></div>
+    <div class="card"><div class="roast">Medium · Decaf</div><h3>Ridge Line Decaf</h3><p>Brown sugar, orange. Swiss Water process.</p><div class="price">$20</div></div>
+  </section>
+
+  <footer>© 2026 Hollow Pine Coffee · support@hollowpine.example</footer>
+
+  <!-- Paste the Askwell script tag on the line below -->
+
+</body>
+</html>

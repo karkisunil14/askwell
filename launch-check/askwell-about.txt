@@ -1,0 +1,11 @@
+Askwell is an AI support chat for any website.
+
+A business signs up, creates a project, and adds its product info: a PDF, a Markdown or text file, or pasted text. Then it copies one script tag from the Install page and pastes it into its website. A chat button appears in the corner, and the chat answers visitors' questions from that product info only. If the answer isn't in the info, it says it doesn't know instead of making something up.
+
+Every conversation shows up in the dashboard, so the business can read what visitors asked.
+
+Plans:
+- Free: 1 project, 100 messages a month per project, 3 knowledge sources per project. The widget uses the default style and shows a "Powered by Askwell" badge.
+- Pro: 5 projects, 2,000 messages a month per project, 25 knowledge sources per project. You can change the button color, position, label, open animation and header text, and remove the badge.
+
+Askwell protects the public chat: it limits how many messages one visitor can send in a minute, and it blocks prompt injection attempts before they reach the AI.
